@@ -1,0 +1,40 @@
+:root {
+    --primary-color: #FF7700;
+    --secondary-color: #FF7700;
+    --primary-back: white;
+    --secondary-back: #F5F5F5;
+    --nav-color: #D86500;
+}
+
+body {
+    background-color: var(--primary-color);
+    justify-items: center;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15%;
+    box-shadow: 2px 2px 2px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#menu {
+    width: 50%;
+    height: 80%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#routes {
+    display: flex;
+    align-items: center;
+}
