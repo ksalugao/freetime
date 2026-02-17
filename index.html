@@ -1,3 +1,4 @@
+<!-- Login Page -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,24 +13,27 @@
 <body>
     <div class="container">
         <div class="login-card">
+            <!-- Logo/Title -->
             <div class="logo">
                 <div class="logo-icon">
                     <img src="static/logo.png"/>
                 </div>
                 <h1>FreeTime</h1>
             </div>
-            <form>
-                <label>Email</label>
-                <input type="email" placeholder="Value" />
 
+            <!-- Login form -->
+            <form>
+                <label>Email/Username</label>
+                <input type="text" placeholder="Value" />
+                
                 <label>Password</label>
-                <input type="password" placeholder="Value" />
+                <input type="password" placeholder="Value" />   
 
                 <button type="submit" class="btn">Sign In</button>
                 
 
-                <a href="#" class="forgot">Forgot password?</a>
-                <a href="#" class="forgot">Create account</a>
+                <a href="forgot_password/index.html" class="link">Forgot password?</a>
+                <a href="create_account/index.html" class="link">Sign up</a>
             </form>
         </div>
     </div>
