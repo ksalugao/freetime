@@ -6,35 +6,102 @@
     --nav-color: #D86500;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
 body {
-    background-color: var(--primary-color);
-    justify-items: center;
+    background: #ff7a00;
+    /* Bright orange background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    background-color: white;
-    border-radius: 15%;
-    box-shadow: 2px 2px 2px grey;
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card {
+    background: white;
+    padding: 40px 35px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.logo-icon {
+    width: 45px;
+    height: 45px;
+    background: #ff7a00;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 5px;
 }
 
-#menu {
-    width: 50%;
-    height: 80%;
+.logo h1 {
+    font-size: 26px;
+    font-weight: bolder;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
 }
 
-#routes {
-    display: flex;
-    align-items: center;
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+.forgot {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+}
+
+.forgot:hover {
+    text-decoration: underline;
 }

@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeTime</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div id="menu" class="container">
-        <h2>FreeTime</h2>
-        <form>
-            <label>
-                Email
-                <br>
-                <input type="email" id="email" name="email" value="example@email.com"/>
-            </label>
-            <br>
-            <label>
-                Password
-                <br>
-                <input type="password" id="password" name="password" />
-            </label>
-            <br>
-            <button type="submit" id="login">Log In</button>
-        </form>
-        <div id="routes">
-            <a href="#">Forgot password?</a>
-            <a href="#">Create an account</a>
+    <div class="container">
+        <div class="login-card">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="static/logo.png"/>
+                </div>
+                <h1>FreeTime</h1>
+            </div>
+            <form>
+                <label>Email</label>
+                <input type="email" placeholder="Value" />
+
+                <label>Password</label>
+                <input type="password" placeholder="Value" />
+
+                <button type="submit" class="btn">Sign In</button>
+                
+
+                <a href="#" class="forgot">Forgot password?</a>
+                <a href="#" class="forgot">Create account</a>
+            </form>
         </div>
     </div>
 </body>
+
 </html>
